@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sign up Form </title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 120vh;
+    background: tomato;
+}
+.container{
+    width: 100%;
+    display: flex;
+    max-width: 850px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+.login{
+    width: 400px;
+}
+form{
+    width: 250px;
+    margin: 60px auto;
+}
+h1{
+    margin: 20px;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+p{
+    text-align: center;
+    margin: 10px;
+}
+hr{
+    border-top: 2px solid tomato;
+}
+.pic img{
+    width: 450px;
+    height: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+form label{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px;
+}
+input{
+    width: 100%;
+  margin-top: 5px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+button{
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 252px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: rgb(245, 87, 59);
+}
+button:hover{
+    background: rgba(214, 86, 64, 1);
+}
+p{
+    margin: 20px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+    font-style: italic;
+}
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="login">
+            <form>
+                <h1>SIGN UP</h1>
+                <hr>
+                <p>Explore the World!</p>
+                <label>Name</label>
+                <input type="text" placeholder="sam puda">
+                <label>Email</label>
+                <input type="text" placeholder="abc@exampl.com">
+                <label>Mobile No.</label>
+                <input type="tel" placeholder="9123546822">
+                <label>Gender</label>
+              <div style="display: flex;justify-content: left;">
+                  Male<input type="radio" name="mygender">
+                    Female<input type="radio" name="mygender">
+                    Transgender<input type="radio" name="mygender">
+              </div> 
+              <br>
+              <label>Weight(in Kg)</label>
+                <input type="number" placeholder="64">
+                <label>Set Password</label>
+            <input type="password" placeholder="enter your password!">
+            <strong><a href="fee pay.html" target="_blank">
+         Pay & Become permanent member!&#8608;</a></strong>
+                <button>Submit</button>
+                <p>
+                    <a href="#">Forgot Password?</a>
+                    <a href="sign in.html">_SIGN IN?</a>
+                </p>
+            </form>
+        </div>
+        <div class="pic">
+            <img src="img/crossfit-squat-1280.jpg">
+        </div>
+    </div>
+
+</body>
+</html>
