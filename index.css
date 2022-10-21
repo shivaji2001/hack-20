@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:url(./images/bgr2.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+  
+
+
+.container{
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.container h1{
+    display: inline-block;
+    font-size: 40px;
+    border-bottom: 3px solid white;
+    margin-bottom: 15px;
+    padding: 13px 0;
+}
+
+.box{
+    width: 100%;
+    margin: 20px 0;
+    border-bottom: 2px solid white;
+    background:transparent;
+    color: white;
+    }
+
+    input::placeholder {
+        color: white;
+        opacity: 1;
+      }
+    .box input{
+        width: 75%;
+        background: none;
+        margin :12px 0px;
+        padding: 5px 8px;
+        font-size: 20px;
+        border: none;
+        outline: none;
+        color: white;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+    .box i{
+    
+        width: 20px;
+        text-align: center;
+    }
+    .btn{
+        background: #000000;
+        color: white;
+        padding: 6px 6px 6px 6px;
+        margin:12px 0px 0px 104px;
+        border-radius: 5px;
+        width: 40%;
+        margin-top: 5px;
+    }
+    
+    .btn:hover{
+        background: rgba(128, 117, 117, 0.616);
+        color: black;
+    }
+
+    .new{
+        color: white;
+    }
+    .new:hover{
+     color: yellow;
+    }
+    .container span{
+        margin-right: 3px;
+    }
+    .container a{
+        color: white;
+    }
+    .container a:hover{
+        color: yellow;
+    }
